@@ -1,0 +1,25 @@
+{
+    "name": "vipinlalrv/ably",
+    "description": "Migration from pusher to ably",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vipinlalrv\\Ably\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vipinlalrv91",
+            "email": "vipinlalrv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "php": "^8.0",
+        "ably/ably-php": "^1.1",
+        "illuminate/support": "5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "ext-json" : "*"
+    }
+}
